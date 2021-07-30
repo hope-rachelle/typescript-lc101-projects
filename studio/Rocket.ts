@@ -19,7 +19,7 @@ export class Rocket implements Payload {
         for(i; i<items.length; i++){
             totalPayloadMass += items[i].massKg;
         }
-        return totalPayloadMass
+        return totalPayloadMass;
     }
     currentMassKg():number{
         return(this.sumMass(this.astronauts)) + (this.sumMass(this.cargoItems));
