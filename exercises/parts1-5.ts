@@ -43,7 +43,7 @@ class Spacecraft {
 }
 // Create an instance of the class here:
 let spaceShuttle = new Spacecraft('Determination', 17500);
-console.log(` ${spaceShuttle.getDaysToLocation(kilometersToMars)} and ${spaceShuttle.name}.`)
+console.log(`${spaceShuttle.getDaysToLocation(kilometersToMars)} and ${spaceShuttle.name}.`)
 console.log(`${spaceShuttle.getDaysToLocation(kilometersToTheMoon)} and ${spaceShuttle.name}.`)
 
 // Move your output statements from part 3 here. Update the template literals use the
